@@ -348,7 +348,7 @@ class _CustomerScreenState extends State<CustomerScreen> {
                 ),
                 const SizedBox(height: 8),
                 Text(
-                  "Haydovchi: ${order.driverName ?? \"Noma'lum\"}",
+                  "Haydovchi: ${order.driverName ?? 'Noma\'lum'}",
                   style: const TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.w600,
